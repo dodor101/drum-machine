@@ -104,7 +104,7 @@ interface Sound {
   },
   {
     id: 6,
-    title: 'Hit-Hat',
+    title: 'Hi-Hat',
     url: hitHat,
   },
   {

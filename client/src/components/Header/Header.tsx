@@ -10,7 +10,7 @@ export default function Header() {
         justifyContent: 'flex-end',
       }}
     >
-      <Typography variant="h6" component="h6" sx={{ color: 'white', fontWeight: 700 }}>
+      <Typography variant="h6" component="h6" sx={{ color: 'white', fontWeight: 700, fontFamily: "cursive" }}>
         Drum
       </Typography>
     </Box>

@@ -41,11 +41,18 @@ export default function Machine() {
   };
 
   return (
-    <Box sx={{ p: 2, border: '0.2em solid yellow', bgcolor: 'grey' }}>
+    <Box sx={{ p: 2, border: '0.2em solid yellow', bgcolor: '#B3B3B3' }}>
       <Header />
       {/* control portion */}
       <Box sx={{ p: '1rem', display: 'flex', justifyContent: 'space-around' }}>
-        <Drums soundsTwo={soundsTwo} sounds={sounds} setSoundClicked={setSoundClicked} audioRefs={audioRefs} play={play} bank={bank} />
+        <Drums
+          soundsTwo={soundsTwo}
+          sounds={sounds}
+          setSoundClicked={setSoundClicked}
+          audioRefs={audioRefs}
+          play={play}
+          bank={bank}
+        />
         <Controls
           setPower={setPower}
           power={power}
